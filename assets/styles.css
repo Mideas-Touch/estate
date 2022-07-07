@@ -15,10 +15,10 @@
     max-width: 250px;
     max-height: 250px;
     padding: 10px;
-    padding-left: 200px;
+    padding-left: 180px;
     margin-top: 10px;
-    margin-right:50px;
-    margin-left: 20px;
+    margin-right:20px;
+    margin-left: 15px;
     margin-bottom: 10px;
 }
 
@@ -75,7 +75,7 @@
     padding: 20px;
     padding-right: 40px;
     margin-bottom: 0px;
-    margin-right: 20px;
+    margin-right: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18pt;
     letter-spacing: 0.1em;
