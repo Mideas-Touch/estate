@@ -110,6 +110,7 @@ h1 {
     padding: 20px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 32pt;
+    font-weight: 700;
     letter-spacing: 00.2ems;
     line-height: 0ems;
     color:#2549D3
@@ -162,18 +163,34 @@ p1 {
 
 .loc_price {
     display: flex;
+    background-color:rgb(247, 247, 233);
+    max-width:800px;
+    max-height: 20px;
     justify-content:space-between;
+    align-items:flex-end;
     white-space: nowrap;
-    padding: 50px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    margin-left: 380px;
+    padding-bottom: 20px;
+    border: 5px;
+    border-radius: 30px;
+    padding: 45px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
+    color:#2549D3;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: .2ems;
 }
-
+/*
+h2, h3, h4 {
+    vertical-align: middle;
+}
+/*
 h2 {
-    margin-left: 350px;
-    margin-right: 240px;
+    margin-left: 400px;
+    margin-right: 200px;
     padding: 15px;
 }
 
@@ -181,7 +198,7 @@ h3 {
     max-width: fit-content;
     text-align:left;
     max-height: 30px;
-    margin-right: 300px;
+    margin-right: 200px;
     padding: 15px;
 }
 
