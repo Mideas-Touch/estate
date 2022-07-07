@@ -100,5 +100,27 @@
 
 hr {
     margin-bottom: 30px;
-  
+}
+
+h1 {
+    max-width: 300px;
+    max-height: 600px;
+    margin-left: 240px;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 28pt;
+    letter-spacing: 00.2ems;
+    line-height: 0ems;
+    color:#2549D3
+}
+
+p1 {
+    max-width:100px;
+    max-height: fit-content;
+    margin-left: 240px;
+    padding: 15px;
+    margin-bottom: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;  
+
 }
