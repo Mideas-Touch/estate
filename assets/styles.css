@@ -1,3 +1,6 @@
+body{
+    background-color:rgb(202, 226, 226);
+}
 .Vallie-container {
     display: flex;
     justify-content: center;
@@ -161,6 +164,104 @@ p1 {
     padding: 30px;
 }
 
+body {
+    background-color:rgb(202, 226, 226);
+
+}
+.locationprice {
+    max-width: 800px;
+    max-height: 80px;
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px ;
+    grid-template-rows: 120px 120px 120px 120px;
+    border: 2px;
+}
+
+.locationprice div:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.locationprice div:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.locgrid-item {
+    background-color:whitesmoke;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: #2549D3;
+    font-weight: 700;
+    letter-spacing: .2ems;
+    text-align: start;
+}
+.loc_price_content {
+    position:absolute;
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 60px 60px 60px 60px;
+}
+
+.contgrid-item {
+    letter-spacing: .5ems;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(132, 137, 138)
+
+
+}
+
+.Loc_icons {
+    position:absolute;
+    max-width: 600px;
+    color: #2549D3;
+    font-size: 28pt;
+    margin-top: 7px;
+    padding-top: 15px;
+}
+
+#caretone {
+    position:absolute;
+    margin-left: 145px;
+}
+
+#caretwo {
+    position:absolute;
+    margin-left: 450px;
+
+}
+
+#carethree {
+    position:absolute;
+    margin-left: 625px;
+
+}
+
+#search_glass {
+    position:absolute;
+    margin-left: 740px;
+    margin-top: 60px;
+    font-size: 16pt;
+    color: whitesmoke;
+}
+
+H5 {
+   position:absolute;
+    width: 120px;
+    text-align: right;
+    background-color: #2549D3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    color:whitesmoke;
+    margin-left: 720px;
+    padding: 20px;
+    border: 2px;
+    border-radius: 20px;
+}
+/* 
 .loc_price {
     display: flex;
     background-color:rgb(247, 247, 233);
@@ -184,6 +285,8 @@ p1 {
     line-height: normal;
     letter-spacing: .2ems;
 }
+
+
 
 #carettwo {
     color: #2549D3; font-size: 30pt; margin-bottom: 18px; position: absolute;
@@ -209,9 +312,8 @@ H5 {
 }
 /*
 h2, h3, h4 {
-    vertical-align: middle;
-}
-/*
+    flex-grow: 1;
+
 h2 {
     margin-left: 400px;
     margin-right: 200px;
