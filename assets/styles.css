@@ -169,13 +169,17 @@ body {
 
 }
 .locationprice {
+    display: grid;
     max-width: 800px;
     max-height: 80px;
-    display: grid;
+    margin-top: 80px;
+    margin-left: 400px;   
     grid-template-columns: 230px 230px 230px 230px ;
     grid-template-rows: 120px 120px 120px 120px;
     border: 2px;
 }
+
+/* -100 to css carets-drop-down, also reduce grid-column height*/
 
 .locationprice div:first-child {
     border-top-left-radius: 15px;
@@ -205,7 +209,7 @@ body {
 
 .contgrid-item {
     letter-spacing: .5ems;
-    padding-left: 10px;
+    padding-left: 510px;
     padding-right: 10px;
     margin-left: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -219,24 +223,24 @@ body {
     max-width: 600px;
     color: #2549D3;
     font-size: 28pt;
-    margin-top: 7px;
+    margin-top: 87px;
     padding-top: 15px;
 }
 
 #caretone {
     position:absolute;
-    margin-left: 145px;
+    margin-left: 580px;
 }
 
 #caretwo {
     position:absolute;
-    margin-left: 450px;
+    margin-left: 850px;
 
 }
 
 #carethree {
     position:absolute;
-    margin-left: 625px;
+    margin-left: 1050px;
 
 }
 
@@ -332,3 +336,6 @@ h4 {
     margin-right: 800px;
     padding: 15px;
 }
+
+
+
