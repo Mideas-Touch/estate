@@ -540,3 +540,31 @@ h4 {
 
 }
 
+.featured-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 30vh;
+    width: 500px;
+    max-height: 500px;
+}
+
+.featured-products h {
+    display: block;
+    text-align: center;
+}
+
+.contents {
+    display: block;
+    text-align: center;
+    Position:inherit;
+    font-family: "Space Grotesk" 'sans-serif';
+    color: black;
+    top: 15vh;
+}
+
+#featuredimg1, #featuredimg2, #feauturedimg3 {
+    width: 300px;
+    height: 250px;
+}
