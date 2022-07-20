@@ -466,7 +466,7 @@ h4 {
     position: relative;
     top: 10vh;
     width: auto;
-    max-height: 500px;
+    max-height: 800px;
 }
 
 #sect3img {
@@ -480,10 +480,63 @@ h4 {
 
 
 .content-wrapper {
-    display:flex;
+    margin: 5px;
+    /* display:flex; */
+    padding: 10px;
     /* display: block; */
     /* max-width: 400px; */
     position: relative;
+    top: 8vh;
+    left: 4vw;
+
+}
+
+.content-wrapper p {
+    display: block;
+    position: relative;
+    left: 20vw;
+}
+
+.content-wrapper h {
+    display: block;
+    position: relative;
+}
+
+.checkmarks {
+    display: grid;
+    grid-template-columns: .2fr .2fr;
+    grid-template-rows: .05fr .05fr;
+    gap: ;
+    /* max-width: 20px;
+    max-height: 20px;
+    justify-content: space-between; */
+    position: inherit;
+    top: 8vh;
+    left: 25vw;
+    font-family: "Space Grotesk", 'sans-serif';
+    font-size: 30;
+    color: #2549D3;
+
+}
+
+.checkmarks p {
+    line-height: 15px;
+    color:black;
+}
+
+
+.checkicons {
+    font-size: 30;
+    color: #2549D3;
+    height: 30px;
+    line-height: 5px;
+    position: inherit;
+    top: 0vh;
+    left: 23vw;
+    display: grid;
+    grid-template-columns: .2fr .5fr;
+    grid-template-rows: .8fr .8fr;
+    gap: 20px;
 
 }
 
